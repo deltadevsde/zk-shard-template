@@ -1,0 +1,40 @@
+[package]
+name = "shard-common"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+# webserver
+axum.workspace = true
+reqwest.workspace = true
+
+# celestia stuff
+celestia-rpc.workspace = true
+celestia-types.workspace = true
+
+# key management
+prism-common.workspace = true
+keystore-rs.workspace = true
+
+# serde
+bincode.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+hex.workspace = true
+
+# concurrency
+tokio.workspace = true
+tokio-util.workspace = true
+async-lock.workspace = true
+
+# binary stuff
+log.workspace = true
+pretty_env_logger.workspace = true
+clap.workspace = true
+
+# errors
+anyhow.workspace = true
+
+#zk
+jmt.workspace = true
+sha2.workspace = true

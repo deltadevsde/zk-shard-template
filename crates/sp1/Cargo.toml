@@ -1,0 +1,8 @@
+[package]
+name = "shard-sp1"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+sp1-zkvm.workspace = true
+shard-common.workspace = true
